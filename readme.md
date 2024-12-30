@@ -1,4 +1,4 @@
-## Semantic image search example
+## Create pull request title and description example
 
 In this example, you will find a very simple app that allows you to create title and description for your pull/merge request utilising OpenAI `gpt-4o` model.
 
