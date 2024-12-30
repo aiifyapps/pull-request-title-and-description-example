@@ -1,0 +1,10 @@
+diff --git a/src/client/apps/website/src/modules/shared/components/card/media-interests-tags/interests-label.component.html b/src/client/apps/website/src/modules/shared/components/card/media-interests-tags/interests-label.component.html
+index ee2aef864..d4de52885 100644
+--- a/src/client/apps/website/src/modules/shared/components/card/media-interests-tags/interests-label.component.html
++++ b/src/client/apps/website/src/modules/shared/components/card/media-interests-tags/interests-label.component.html
+@@ -1,4 +1,3 @@
+ <ng-container *ngFor="let interest of interests; let last = last">
+-    {{ interest.name }}
+-    <ng-container *ngIf="!last">,</ng-container>
++    {{ interest.name }}<ng-container *ngIf="!last">, </ng-container>
+ </ng-container>
